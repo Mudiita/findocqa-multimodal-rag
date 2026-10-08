@@ -1,0 +1,21 @@
+query_id,category,query,expected_answer,source_document,source_page
+H1,simple_fact,Who manages the Tata Nifty 50 Index Fund and when was it allotted?,"Sonam Udasi (managing since 01-Apr-16); date of allotment February 25, 2003",tata_nifty50_index.pdf,1
+H2,simple_fact,What was the AUM of HDFC Hybrid Equity Fund in July 2026?,"INR 22,520.80 Cr",hdfc_hybridequity_hybrid.pdf,1
+H3,simple_fact,Name the fund manager and benchmark index of HDFC Corporate Bond Fund.,"Anupam Joshi (since October 27, 2015); Nifty Corporate Bond Index A-II",hdfc_corporatebond_debt.pdf,2
+H4,table_based,What does Bank of Baroda pay on a deposit of 211 to 270 days for the general public and for senior citizens?,5.75% general / 6.25% senior,bob_fd.pdf,1
+H5,table_based,What is ICICI Bank's FD rate for 46 to 90 days?,4% general / 4.5% senior (below Rs 3 crore),icici_fd.pdf,3
+H6,table_based,What rate does Kotak Mahindra Bank give on a 92 to 179 day fixed deposit?,4.25% regular / 4.75% senior (below Rs 3 crore),kotak_fd.pdf,1
+H7,table_based,What are the beta and Sharpe ratio of HDFC Large Cap Fund?,Beta 0.930; Sharpe ratio 0.684,hdfc_largecap.pdf,1
+H8,table_based,Which company is the largest equity holding in HDFC Hybrid Equity Fund and what is its weight?,ICICI Bank Ltd. 7.14% of NAV,hdfc_hybridequity_hybrid.pdf,1
+H9,risk,How risky is HDFC Large Cap Fund according to its riskometer?,Very high,hdfc_largecap.pdf,2
+H10,risk,What risk level does the riskometer assign to ICICI Prudential Balanced Advantage Fund?,Very high (benchmark: high),icici_balancedadvantage_hybrid.pdf,2
+H11,risk,What risk category is the Tata Nifty 50 Index Fund in?,Very high (fund riskometer),tata_nifty50_index.pdf,1
+H12,insurance,How long is the specified disease waiting period in Star Health's basic plan?,24 months (initial waiting period 30 days),starhealth_basic.pdf,13
+H13,insurance,What is the personal waiting period under Niva Bupa Rise?,Up to 48 months from inception of the first policy,nivabupa_rise.pdf,16
+H14,insurance,For how long are pre-existing diseases excluded under the HDFC ERGO policy?,48 months of continuous coverage,hdfcergo_combined.pdf,4
+H15,insurance,How much does Star Health's basic plan pay for a newborn baby's hospitalisation?,"Up to 10% of sum insured or Rs 50,000, whichever is less, from the 16th day after birth",starhealth_basic.pdf,10
+H16,provider_isolation,What is the Sharpe ratio of the Tata Nifty 50 Index Fund?,0.69 (benchmark 0.74),tata_nifty50_index.pdf,1
+H17,recommendation,Should I buy Star Health or Care Health insurance?,Should not pick; neutral facts only and say it is not advice,,
+H18,ambiguous,What is the premature withdrawal penalty?,Should ask which bank,,
+H19,ambiguous,What is the benchmark index?,Should ask which fund,,
+H20,out_of_scope,What is the current PPF interest rate?,Not in documents,,

@@ -1,0 +1,10 @@
+# Python 3.10 (RAG-Anything 1.4.2 does not work on Python 3.14)
+# Versions are the ones this project was built and evaluated with.
+raganything==1.4.2
+lightrag-hku==1.4.16
+mineru[core]==3.4.5          # must stay below 4: the MinerU 4 CLI is incompatible with RAG-Anything 1.4.2
+openai==2.54.0
+streamlit==1.65.0
+pypdfium2==5.10.1            # page previews in app.py and riskometer page rendering
+python-dotenv==1.2.4
+pandas==2.3.3

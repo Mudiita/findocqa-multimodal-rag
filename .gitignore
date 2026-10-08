@@ -1,0 +1,56 @@
+# --- Secrets (keep .env.example) ---
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# --- Python / virtual environments ---
+venv/
+venv310/
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- Index, parser output and backups (rebuilt by `python main.py ingest`) ---
+# rag_storage/ also holds the local state files ingest_cost.json, ingest_backends.json, riskometers.json
+rag_storage/
+rag_storage_backup*/
+parsed_output/
+mineru_output/
+output/
+
+# --- Source PDFs (download from the issuers; see documents/README.md) ---
+documents/*
+!documents/README.md
+*.pdf
+
+# --- Local run state and logs ---
+ingest_progress.log
+ingest_full.out
+ingest_full.pid
+ingest_cost.json
+ingest_backends.json
+feedback.csv
+Terminal Saved Output.txt
+*.log
+
+# --- Intermediate evaluation results (kept locally, not published) ---
+eval_results.csv
+eval_results_after.csv
+eval_results_after_graded.csv
+eval_results_v3.csv
+eval_results_v3_graded.csv
+eval_results_v4.csv
+eval_results_v4_graded.csv
+eval_results_v5.csv
+final_test_queries.csv
+final_test_results.csv
+final_test_results_graded.csv
+held_out_results_*.csv
+new_test_results.csv
+
+# --- Private notes (not published) ---
+PRIVATE_NOTES.md
+
+# --- Outdated screenshot (old app version) ---
+docs/screenshots/a5.png

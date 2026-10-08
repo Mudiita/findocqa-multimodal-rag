@@ -1,0 +1,71 @@
+query_id,category,query,expected_answer,source_document,source_page
+Q1,simple_fact,What is the 1 year FD rate at HDFC Bank for normal and senior citizens?,6.25% normal / 6.75% senior,hdfc_fd.pdf,2
+Q2,simple_fact,What is the SBI FD rate for 1 year to less than 2 years?,6.25% public / 6.75% senior,sbi_fd.pdf,1
+Q3,simple_fact,Who manages the HDFC Mid-Cap Opportunities Fund and since when?,"Chirag Setalvad, since 25 June 2007",hdfc_midcap.pdf,2
+Q4,simple_fact,What is the exit load of SBI Magnum Midcap Fund?,1% if sold within 1 year; nil after 1 year,sbi_magnum_midcap.pdf,
+Q5,simple_fact,How many months is the pre-existing disease waiting period in the Tata AIG MediCare policy?,48 months,tataaig_medicare.pdf,6
+Q6,simple_fact,What is the free look period in the Aditya Birla Activ Health policy?,15 days (30 days for 3-year distance-sales policies),adityabirla_activhealth.pdf,
+Q7,simple_fact,What is the yield to maturity of ICICI Prudential Short Term Fund?,7.73% (Macaulay duration 2.90 years),icici_shortterm_debt.pdf,1
+Q8,simple_fact,What does Kotak Mahindra Bank pay on a 5 to 10 year FD for normal and senior citizens (below Rs 3 crore)?,6.25% normal / 6.75% senior,kotak_fd.pdf,
+Q9,simple_fact,What is the benchmark of SBI Magnum Midcap Fund?,Nifty Midcap 150 Index (TRI),sbi_magnum_midcap.pdf,
+Q10,simple_fact,Who is the equity fund manager of ICICI Prudential Balanced Advantage Fund?,Rajat Chandak (since Sep 2015),icici_balancedadvantage_hybrid.pdf,1
+Q11,comparison,Compare the 1 year FD rates of HDFC Bank and SBI.,HDFC 6.25% / 6.75%; SBI 6.25% / 6.75% (same),hdfc_fd.pdf; sbi_fd.pdf,
+Q12,comparison,"Among HDFC Bank, SBI and Kotak, who gives the highest FD rate for 2 years to less than 3 years?",Kotak 6.65%; HDFC 6.45%; SBI 6.40%,kotak_fd.pdf; hdfc_fd.pdf; sbi_fd.pdf,
+Q13,comparison,Compare the pre-existing disease waiting period of Tata AIG and Care Health.,Tata AIG 48 months; Care Health: verify in PDF,tataaig_medicare.pdf; carehealth_prospectus.pdf,
+Q14,comparison,Compare the fund manager and benchmark of HDFC Mid-Cap Opportunities and SBI Magnum Midcap.,verify in PDF,hdfc_midcap.pdf; sbi_magnum_midcap.pdf,
+Q15,comparison,"Which has a lower expense ratio, HDFC Large Cap or Axis Bluechip?",verify in PDF,hdfc_largecap.pdf; axis_bluechip_largecap.pdf,
+Q16,comparison,"Which has a lower expense ratio, Tata Nifty 50 Index or SBI Nifty Next 50 Index?",verify in PDF,tata_nifty50_index.pdf; sbi_niftynext50_index.pdf,
+Q17,comparison,What is the difference in room rent limit between Star Health Basic and Star Health Premium?,verify in PDF,starhealth_basic.pdf; starhealth_premium.pdf,
+Q18,comparison,Compare ICICI Bank and Kotak FD rates for 3 to 5 years for normal citizens.,ICICI 6.50% (3y 1d to 5y); Kotak 6.40% (3 to under 5 years),icici_fd.pdf; kotak_fd.pdf,
+Q19,comparison,Compare HDFC Bank and ICICI Bank senior citizen FD rates for 3 years 1 day to 4 years 7 months.,HDFC 7.10%; ICICI 7.10% (3y 1d to 5y),hdfc_fd.pdf; icici_fd.pdf,
+Q20,comparison,Compare the free look period of Aditya Birla Activ Health and Niva Bupa.,Aditya Birla 15 days; Niva Bupa: verify in PDF,adityabirla_activhealth.pdf; nivabupa_rise.pdf,
+Q21,table_based,Show all HDFC Bank FD rates between 6 months 1 day and 1 year.,6m 1d to 9m: 5.50% / 6.00%; 9m 1d to <1y: 5.75% / 6.25%,hdfc_fd.pdf,2
+Q22,table_based,What are Kotak's FD rates for 365 days to under 15 months and for 18 months to under 2 years (below Rs 3 crore)?,365d to <15m 6.35% / 6.85%; 18m to <2y 6.55% / 7.05%,kotak_fd.pdf,
+Q23,table_based,What are the top 5 holdings of SBI Magnum Midcap Fund?,Crisil 4.20; Torrent Power 4.16; Thermax 3.76; Sundaram Finance 3.66; Tube Investments 3.10,sbi_magnum_midcap.pdf,
+Q24,table_based,How much does Tata Nifty 50 Index Fund hold in Hero MotoCorp?,0.56% (325.16 lakhs),tata_nifty50_index.pdf,1
+Q25,table_based,Which are the top 3 sectors in SBI Magnum Midcap Fund?,Financial Services 17.05; Automobile and Auto Components 15.87; Capital Goods 10.19,sbi_magnum_midcap.pdf,
+Q26,table_based,"What are the standard deviation, beta and Sharpe ratio of SBI Magnum Midcap Fund?",11.55% / 0.71 / 1.20,sbi_magnum_midcap.pdf,
+Q27,table_based,What are the expense ratios of ICICI Prudential Balanced Advantage Fund (regular and direct)?,1.14% / 0.71%,icici_balancedadvantage_hybrid.pdf,1
+Q28,table_based,What are SBI's FD rates for 7 to 45 days and 46 to 179 days?,7-45d 3.05% / 3.55%; 46-179d 4.90% / 5.40%,sbi_fd.pdf,1
+Q29,table_based,What are SBI's non-callable FD rates for 1 year and 2 years?,1 year 6.55% / 7.05%; 2 years 6.80% / 7.30%,sbi_fd.pdf,1
+Q30,table_based,What is the HDFC Bank FD rate for 5 years 1 day to 10 years?,6.15% normal / 6.65% senior,hdfc_fd.pdf,2
+Q31,image_chart,What does the risk-o-meter show for SBI Magnum Midcap Fund?,Very High risk,sbi_magnum_midcap.pdf,
+Q32,image_chart,What does the risk-o-meter show for HDFC Corporate Bond Fund?,verify in PDF,hdfc_corporatebond_debt.pdf,
+Q33,image_chart,What does the performance chart of Axis Bluechip Fund show compared to its benchmark?,verify in PDF,axis_bluechip_largecap.pdf,
+Q34,image_chart,What does the asset allocation chart show for HDFC Hybrid Equity Fund?,verify in PDF,hdfc_hybridequity_hybrid.pdf,
+Q35,image_chart,"How is SBI Magnum Midcap Fund split between large cap, mid cap and small cap?",verify in PDF,sbi_magnum_midcap.pdf,
+Q36,image_chart,What does the portfolio classification chart show for ICICI Prudential Balanced Advantage Fund?,verify in PDF,icici_balancedadvantage_hybrid.pdf,1
+Q37,image_chart,Is there any flowchart or diagram about the claim process in the Care Health or Niva Bupa documents? What does it show?,verify in PDF,carehealth_prospectus.pdf; nivabupa_rise.pdf,
+Q38,image_chart,What does the risk-o-meter show for ICICI Prudential Short Term Fund?,verify in PDF,icici_shortterm_debt.pdf,1
+Q39,image_chart,Is there a performance graph in the Tata Nifty 50 Index factsheet? What does it show?,verify in PDF,tata_nifty50_index.pdf,
+Q40,image_chart,What does the risk-o-meter show for HDFC Mid-Cap Opportunities Fund?,verify in PDF,hdfc_midcap.pdf,
+Q41,multi_doc_reasoning,"Which of HDFC, SBI, ICICI, Kotak and Bank of Baroda gives the highest FD rate for 3 to 5 years for normal citizens?","ICICI 6.50% and HDFC 6.50% (3y 1d to <4y 7m); verify SBI, Kotak (6.40%), BoB",hdfc_fd.pdf; sbi_fd.pdf; icici_fd.pdf; kotak_fd.pdf; bob_fd.pdf,
+Q42,multi_doc_reasoning,How much extra interest do senior citizens get over normal citizens for 5 year FDs at HDFC and Kotak?,HDFC 0.50% (6.15 vs 6.65); Kotak 0.50% (6.25 vs 6.75),hdfc_fd.pdf; kotak_fd.pdf,
+Q43,multi_doc_reasoning,"Which is bigger by AUM, HDFC Mid-Cap Opportunities or SBI Magnum Midcap, and what are the sizes?","SBI Magnum Midcap 16,856.01 Cr (31 Mar 2024); HDFC: verify in PDF",hdfc_midcap.pdf; sbi_magnum_midcap.pdf,
+Q44,multi_doc_reasoning,"Which policies mention a maternity waiting period, and what is it for each?",verify in PDF,multiple insurance PDFs,
+Q45,multi_doc_reasoning,Which policies have a pre-existing disease waiting period shorter than 48 months?,verify in PDF,multiple insurance PDFs,
+Q46,multi_doc_reasoning,Compare the risk level and 1 year return of ICICI Prudential Short Term Fund and HDFC Corporate Bond Fund.,ICICI 1-year 5.72%; rest: verify in PDF,icici_shortterm_debt.pdf; hdfc_corporatebond_debt.pdf,
+Q47,multi_doc_reasoning,What is the penalty for breaking an FD early at ICICI Bank and at Kotak Mahindra Bank?,"ICICI 0.50% (<1y), 1.00% (1y to <5y), 1.00% (5y+, <25 cr); Kotak nil up to 180 days, 0.50% for 181-364 days, 1.00% for 365 days+",icici_fd.pdf; kotak_fd.pdf,
+Q48,multi_doc_reasoning,"Which bank gives the highest FD rate for 7 days to 14 days among HDFC, Kotak and SBI?","HDFC 2.75%, Kotak 2.75%; SBI 3.05% (7-45 days)",hdfc_fd.pdf; kotak_fd.pdf; sbi_fd.pdf,
+Q49,multi_doc_reasoning,Which of the two index funds has lower tracking error?,verify in PDF,tata_nifty50_index.pdf; sbi_niftynext50_index.pdf,
+Q50,multi_doc_reasoning,Which fund houses are covered in the mutual fund factsheets?,"SBI, Tata, HDFC, Axis, ICICI Prudential",mutual_funds folder,
+Q51,out_of_scope,What is Axis Bank's FD interest rate?,Not in documents; system should say so,none,
+Q52,out_of_scope,What is today's NAV of HDFC Large Cap Fund?,Not available; only the factsheet date NAV exists,hdfc_largecap.pdf,
+Q53,out_of_scope,Who is the fund manager of Kotak Emerging Equity Fund?,Not in documents,none,
+Q54,out_of_scope,What is the premium of LIC Jeevan Anand?,Not in documents,none,
+Q55,out_of_scope,Will FD rates go up next month?,Cannot predict; only current rates are available,none,
+Q56,out_of_scope,What is the premium for Manipal Cigna health insurance?,Not in documents,none,
+Q57,out_of_scope,Which is the best mutual fund to invest in?,Should not recommend; can only show facts from the factsheets,none,
+Q58,out_of_scope,What are gold ETF returns this year?,Not in documents,none,
+Q59,out_of_scope,What is the income tax slab this year?,Not in documents,none,
+Q60,out_of_scope,Who won the cricket match yesterday?,Unrelated; system should say it only answers from the documents,none,
+Q61,ambiguous,What is the interest rate?,"Should ask which bank and tenure, or clearly list options",all FD pdfs,
+Q62,ambiguous,What is the 1 year FD rate?,Should list each bank clearly or ask which bank,all FD pdfs,
+Q63,ambiguous,Who is the fund manager?,Should ask which fund,all factsheets,
+Q64,ambiguous,What is the waiting period?,Should ask which policy and which waiting period,all insurance pdfs,
+Q65,ambiguous,Tell me about HDFC.,"Should ask: HDFC Bank FD, HDFC ERGO insurance or HDFC mutual fund",hdfc files,
+Q66,ambiguous,What is the expense ratio?,Should ask which fund,all factsheets,
+Q67,ambiguous,What is the senior citizen rate?,Should ask which bank and tenure,all FD pdfs,
+Q68,ambiguous,What is the exit load?,Should ask which fund,all factsheets,
+Q69,ambiguous,"Which is better, SBI or HDFC?","Should ask what to compare (FD, fund or insurance) and avoid a blind pick",sbi and hdfc files,
+Q70,ambiguous,What is the minimum investment?,Should ask which fund or FD,all factsheets and FD pdfs,

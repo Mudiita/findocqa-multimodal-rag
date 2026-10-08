@@ -1,0 +1,21 @@
+query_id,category,query,expected_answer,source_document,source_page
+N1,simple_fact,On what date was SBI Magnum Midcap Fund allotted?,29 March 2005 (29/03/2005),sbi_magnum_midcap.pdf,1
+N2,simple_fact,Who manages the debt and equity portfolios of HDFC Hybrid Equity Fund?,"Anupam Joshi - debt (since October 6, 2022); Srinivasan Ramamurthy - equity (since July 1, 2025)",hdfc_hybridequity_hybrid.pdf,2
+N3,simple_fact,What is the Macaulay duration of the debt component of ICICI Prudential Balanced Advantage Fund?,3.41 years,icici_balancedadvantage_hybrid.pdf,2
+N4,comparison,How do the free look periods of Tata AIG MediCare and Care Health compare?,Tata AIG 15 days (p.20); Care Health 30 days (p.29),tataaig_medicare.pdf; carehealth_prospectus.pdf,20; 29
+N5,comparison,What benchmarks do HDFC Large Cap Fund and Axis Bluechip Fund use?,HDFC Large Cap: NIFTY 100 TRI; Axis Bluechip: S&P BSE 100 TRI,hdfc_largecap.pdf; axis_bluechip_largecap.pdf,2; 17
+N6,comparison,"For the general public, compare Kotak's 365 days to under 15 months FD rate with Bank of Baroda's 1 year rate.",Kotak 6.35%; Bank of Baroda 6.25% - Kotak higher by 0.10%,kotak_fd.pdf; bob_fd.pdf,1; 1
+N7,table_based,What are SBI's term deposit rates for 3 years to less than 5 years?,6.30% public / 6.80% senior,sbi_fd.pdf,1
+N8,table_based,What does Kotak pay on a 271 to 363 day FD below Rs 3 crore?,6.00% regular / 6.50% senior,kotak_fd.pdf,1
+N9,table_based,What is the NAV of SBI Magnum Midcap Fund's Direct Plan Growth option?,"Rs 223.8519 (as of 31 March 2024 factsheet)",sbi_magnum_midcap.pdf,1
+N10,image_chart,"In the Axis Bluechip presentation, how do the fund's ROE and EPS growth for FY21 compare with its benchmark?","ROE 14.6% vs Nifty 50 TRI 12.0%; EPS growth 6.9% vs 5.5%",axis_bluechip_largecap.pdf,13
+N11,image_chart,Which three stocks are the largest in the Axis Bluechip Fund's top 10 stocks chart?,"Infosys 9.77%, Bajaj Finance 9.69%, ICICI Bank 9.09% (as on 31 March 2022)",axis_bluechip_largecap.pdf,16
+N12,image_chart,What does the rating profile chart of ICICI Prudential Balanced Advantage Fund show?,"TREPS & current assets 35.89%, Sovereign 27.44%, AAA 20.41%, AA 15.19%, A 1.07%",icici_balancedadvantage_hybrid.pdf,1
+N13,image_chart,What does the portfolio allocation chart of Axis Bluechip Fund show about its large cap exposure over time?,"Large cap biased (minimum 80%); large cap roughly 78-80%+ in 2018-19, rising to about 95%+ from late 2020 to Mar 2022; the rest mostly debt/cash, small mid cap",axis_bluechip_largecap.pdf,14
+N14,multi_doc_reasoning,"Among SBI, Kotak and Bank of Baroda, which pays the general public the most on a 5 to 10 year FD?","Kotak 6.25%; SBI 6.05%; Bank of Baroda 6.00% (above 5 years up to 10 years)",kotak_fd.pdf; sbi_fd.pdf; bob_fd.pdf,
+N15,multi_doc_reasoning,Which of the two ICICI Prudential funds has the lower base expense ratio for the direct plan?,"Short Term Fund 0.38% vs Balanced Advantage 0.71% - Short Term lower",icici_shortterm_debt.pdf; icici_balancedadvantage_hybrid.pdf,1; 1
+N16,multi_doc_reasoning,Which has the longer renewal grace period: Digit Health Care Plus or New India Mediclaim?,"Both 30 days (Digit p.28, New India p.23) - same",digit_healthcareplus.pdf; newindia_mediclaim.pdf,28; 23
+N17,out_of_scope,What is the current RBI repo rate?,Not in documents,,
+N18,out_of_scope,What is LIC's claim settlement ratio?,Not in documents,,
+N19,ambiguous,What is the inception date?,Should ask which fund,,
+N20,ambiguous,What is the room rent limit?,Should ask which policy,,

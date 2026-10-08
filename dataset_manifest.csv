@@ -1,0 +1,31 @@
+doc_id,category,provider,product,file_path,doc_date,notes
+INS01,insurance,Aditya Birla Health,Activ Health,documents/insurance/adityabirla_activhealth.pdf,,Policy wording
+INS02,insurance,Bajaj Allianz,My Health Care,documents/insurance/bajajallianz_myhealthcare.pdf,,
+INS03,insurance,Care Health,Care prospectus,documents/insurance/carehealth_prospectus.pdf,,
+INS04,insurance,Digit,Health Care Plus,documents/insurance/digit_healthcareplus.pdf,,
+INS05,insurance,Generali Central,Group Health,documents/insurance/generalicentral_grouphealth.pdf,,
+INS06,insurance,HDFC ERGO,Combined health,documents/insurance/hdfcergo_combined.pdf,,
+INS07,insurance,ICICI Lombard,Complete Health,documents/insurance/icicilombard_complete.pdf,,
+INS08,insurance,New India Assurance,Mediclaim,documents/insurance/newindia_mediclaim.pdf,,
+INS09,insurance,Niva Bupa,ReAssure/Rise,documents/insurance/nivabupa_rise.pdf,,
+INS10,insurance,Reliance General,Health Global,documents/insurance/reliancegeneral_healthglobal.pdf,,
+INS11,insurance,SBI General,Group Health,documents/insurance/sbigeneral_grouphealth.pdf,,
+INS12,insurance,Star Health,Basic plan,documents/insurance/starhealth_basic.pdf,,
+INS13,insurance,Star Health,Premium plan,documents/insurance/starhealth_premium.pdf,,
+INS14,insurance,Tata AIG,MediCare,documents/insurance/tataaig_medicare.pdf,,
+INS15,insurance,Universal Sompo,Complete Healthcare,documents/insurance/universalsompo_completehealthcare.pdf,,
+MF01,mutual_fund,SBI,Nifty Next 50 Index,documents/mutual_funds/sbi_niftynext50_index.pdf,,Index
+MF02,mutual_fund,Tata,Nifty 50 Index,documents/mutual_funds/tata_nifty50_index.pdf,,Index
+MF03,mutual_fund,HDFC,Large Cap,documents/mutual_funds/hdfc_largecap.pdf,2025-02,Large-cap
+MF04,mutual_fund,Axis,Bluechip,documents/mutual_funds/axis_bluechip_largecap.pdf,2022-03,Large-cap; presentation format
+MF05,mutual_fund,SBI,Magnum Midcap,documents/mutual_funds/sbi_magnum_midcap.pdf,2024-03,Mid-cap
+MF06,mutual_fund,HDFC,Mid-Cap Opportunities,documents/mutual_funds/hdfc_midcap.pdf,2025-02,Mid-cap
+MF07,mutual_fund,HDFC,Corporate Bond,documents/mutual_funds/hdfc_corporatebond_debt.pdf,2026-08,Debt
+MF08,mutual_fund,ICICI Prudential,Short Term,documents/mutual_funds/icici_shortterm_debt.pdf,,Debt
+MF09,mutual_fund,ICICI Prudential,Balanced Advantage,documents/mutual_funds/icici_balancedadvantage_hybrid.pdf,,Hybrid
+MF10,mutual_fund,HDFC,Hybrid Equity,documents/mutual_funds/hdfc_hybridequity_hybrid.pdf,2026-08,Hybrid
+FD01,fixed_deposit,SBI,Retail term deposit,documents/fixed_deposits/sbi_fd.pdf,2025-12-15,Rates w.e.f. date
+FD02,fixed_deposit,HDFC Bank,Retail FD,documents/fixed_deposits/hdfc_fd.pdf,2026-08-19,
+FD03,fixed_deposit,ICICI Bank,Retail FD,documents/fixed_deposits/icici_fd.pdf,2026-10-07,
+FD04,fixed_deposit,Kotak Mahindra Bank,Retail FD,documents/fixed_deposits/kotak_fd.pdf,2026-09-23,
+FD05,fixed_deposit,Bank of Baroda,Retail FD,documents/fixed_deposits/bob_fd.pdf,2026-06-12,
